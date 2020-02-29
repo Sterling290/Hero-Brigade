@@ -20,33 +20,45 @@ class ApiList extends React.Component {
     render() {
         console.log("this is cool:", this.state)
         const Styles = styled.div`
+        .list-group{
+         width:'100%'
+
+        }
+        .list-group-item{
+          width:'100%'
+ 
+         }
 
 `
 
       return(
-        this.state.stuff.map((breakpoint, idx) => (
-          <Styles>
-            <Container justifycontent= 'flex-start' justifycontent= 'flex-start' alignitems = "stretch" >
-              <ListGroup  horizontal={"xl"} className="my-2" key={idx} alignitems="stretch" >
-              
+        <Styles>
+        <Container>
+        {this.state.stuff.map((breakpoint, idx) => (
+          
+              <ListGroup  horizontal={"xl"} className="my-2" key={idx} >
                 <ListGroup.Item> { <img src={breakpoint.image.square_tiny} alt="Italian Trulli"></img>}</ListGroup.Item>
                 <ListGroup.Item>
+
                 <ListGroup className="my-2" >
-                <ListGroup.Item variant="primary"  >{breakpoint.name}</ListGroup.Item>
+                <ListGroup.Item variant="primary">{breakpoint.name}</ListGroup.Item>
                {breakpoint.description.length !== 0 ? <ListGroup.Item>Description: {breakpoint.description}</ListGroup.Item>:<ListGroup.Item >Description: not given</ListGroup.Item>}
               {/* <ListGroup.Item>{breakpoint.description}</ListGroup.Item> */}
-              <ListGroup.Item>{breakpoint.release_date}</ListGroup.Item>
-              <ListGroup.Item>{breakpoint.id}</ListGroup.Item>
+              {breakpoint.deck.length !== 0 ? <ListGroup.Item>Deck: {breakpoint.deck}</ListGroup.Item>:console.log('')}
+              <ListGroup.Item> Release: {breakpoint.release_date}</ListGroup.Item>
+              <ListGroup.Item>Id: {breakpoint.id}</ListGroup.Item>
               </ListGroup>
+
               </ListGroup.Item>
 
 
 
             </ListGroup>
-            </Container>
-            </Styles>
+       
             
-          ))
+          ))}
+          </Container>
+          </Styles>
         
       );
     }
