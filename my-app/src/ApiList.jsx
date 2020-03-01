@@ -14,7 +14,6 @@ class ApiList extends React.Component {
     }
     componentDidMount(){
         axios.get( "http://localhost:4000/").then((something)=> this.setState({stuff: something["data"]}))
-        
     }
     
     render() {
