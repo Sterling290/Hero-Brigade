@@ -22,17 +22,12 @@ class TopBAR extends React.Component {
 
 
     render() {
-        console.log(this.state.stuff)
+        // console.log(this.state.stuff)
       return(
-          <div>
-     <div className='header'>
-         HERO  BRIGADE
-        </div> 
-        <div className='middle'>
-        </div> 
 
-        </div>
-  
+     <div className='header'>
+         This is the black bar
+        </div> 
       );
     }
   }

@@ -10,6 +10,9 @@ color:#ccc
 height:200px;
 position:relative;
 z-index -2;
+margin-bottom: 0px ;
+
+
 }
 .overlay{
     background-color:#A52A2A;

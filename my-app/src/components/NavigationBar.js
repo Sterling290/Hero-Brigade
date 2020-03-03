@@ -1,12 +1,24 @@
 import React from 'react'; 
-import {Nav,Navbar} from 'react-bootstrap'
+import {Nav,Navbar,Container} from 'react-bootstrap'
 import styled from 'styled-components'
 
 const Styles = styled.div`
+.nav{
+    height:10px;
+    padding: 25px 50px;
+    margin-top: 0px ;
+    
+}
 .navbar{
     background-color: #222;
+      padding: $spacer !important;
+
+   
 }
-.navbar-brand, .navbar-nav .nav-link{
+.navbar-brand,
+ .navbar-nav .nav-link{
+    
+
     color: #bbb;
     &:hover{
         color:white;
@@ -18,15 +30,15 @@ const Styles = styled.div`
 `;
 export const NavigationBar = () =>(
  <Styles>
- <Navbar expand = "lg"> 
+ <Navbar expand = "xl" > 
  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
  <Navbar.Collapse id="basic-navbar-nav">
 <Nav classname="m1-auto">
 <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
-<Nav.Item><Nav.Link href="/About">About</Nav.Link></Nav.Item>  
+<Nav.Item><Nav.Link href="/articles">Articles</Nav.Link></Nav.Item>  
 <Nav.Item><Nav.Link href="/Contact">Contact</Nav.Link></Nav.Item>   
 </Nav>
- </Navbar.Collapse>
- </Navbar>
- </Styles>
+</Navbar.Collapse>
+</Navbar>
+</Styles> 
 )

@@ -1,0 +1,19 @@
+.articleTitle{
+color:blue
+}
+.writtenBy{
+    color:grey
+}
+.articlebutton{
+    color:red
+}
+.Body{
+    display:none
+}
+.disablebutton{
+    display:none;
+    color:green
+}
+.articlebutton{
+    display:block
+}
