@@ -1,2 +1,2 @@
 # Hero-Brigade
-an app that lets you search for your favorite hero and stats
+this app is a nerdist news site for all heros

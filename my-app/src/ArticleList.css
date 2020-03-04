@@ -1,5 +1,15 @@
 .articleTitle{
-color:blue
+color:blue;
+/* background-color:red; */
+/* border-style: groove; */
+}
+hr{
+    color:black;
+}
+.WholeArticle{
+    border-style: groove;
+    border-color: black;
+
 }
 .writtenBy{
     color:grey
@@ -8,7 +18,11 @@ color:blue
     color:red
 }
 .Body{
-    display:none
+    display:none;
+    height:200px;
+    overflow: scroll;
+
+   
 }
 .disablebutton{
     display:none;
