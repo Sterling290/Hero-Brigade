@@ -33,5 +33,6 @@ Home:
 
 Articles:
 
-<img width="1440" alt="Screen Shot 2020-03-03 at 7 41 58 PM" src="https://user-images.githubusercontent.com/46853230/75845029-16aa6f00-5d95-11ea-8512-8d47ce6ce0d9.png">
+<img width="1440" alt="Screen Shot 2020-03-04 at 9 58 35 AM" src="https://user-images.githubusercontent.com/46853230/75903432-ce279b80-5dfe-11ea-9b98-d4b0486857ae.png">
+
 
