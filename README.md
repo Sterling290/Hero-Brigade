@@ -1,18 +1,18 @@
 # Hero-Brigade
 
-Description
+# Description
 _________________________________________________________________________________________________________________________
 This app is a gaming news site that gives you all the latest and greatest news, while also showing users all the greatest games from the past
 
 
 
-Dependencies/Languages  
+# Dependencies/Languages  
 _________________________________________________________________________________________________________________________
 react,react-bootstrap,css,axios,express,xml( from api),circlejson,json,cors,jquery,styled-components,mongoose(database in progress)
 
 
 
-npm Packages
+# npm Packages/startup
 _________________________________________________________________________________________________________________________
 app:
 -cd my-app
