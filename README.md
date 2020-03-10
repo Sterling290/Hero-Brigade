@@ -32,7 +32,7 @@ Home:
 
 <img width="1440" alt="Screen Shot 2020-03-03 at 7 41 31 PM" src="https://user-images.githubusercontent.com/46853230/75844986-f7134680-5d94-11ea-92af-acf41d924a2d.png">
 
-<hr>
+
 Articles:
 
 <img width="1440" alt="Screen Shot 2020-03-04 at 9 58 35 AM" src="https://user-images.githubusercontent.com/46853230/75903432-ce279b80-5dfe-11ea-9b98-d4b0486857ae.png">
